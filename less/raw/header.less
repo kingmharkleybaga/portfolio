@@ -1,0 +1,134 @@
+ul.navbar-nav {
+    font-size: 16px;
+
+    li {
+        &:unhover {
+            background: #00d3ea; /* Old Browsers */
+            background: -webkit-radial-gradient(center,#00d3ea,#003752); /*Safari 5.1-6*/
+            background: -o-radial-gradient(center,#00d3ea,#003752); /*Opera 11.1-12*/
+            background: -moz-radial-gradient(center,#00d3ea,#003752); /*Fx 3.6-15*/
+            background: radial-gradient(ellipse at center, #00d3ea, #003752); /*Standard*/
+            color: #fff !important;
+        }  
+
+        a {
+
+            &:hover {
+                transition-timing-function: ease-in;
+                transition: .5s;
+                font-size: 16.4px;
+                letter-spacing: 3px;
+                color: #fff !important;
+            }
+
+            &:focus {
+                transition-timing-function: ease-in;
+                transition: .5s;
+                font-size: 16.4px;
+                letter-spacing: 3px;
+                color: #fff !important;
+            }
+        }
+    }
+
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+    background: none;
+    color: #fff;
+//    border-top: 5px solid #fff;
+//    border-bottom: 5px solid #fff;
+//    border-radius: 100%;
+//    position: relative;
+//    top: -5px;
+//    margin-bottom: -10px;
+
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar {
+    background: #00d3ea;
+    /* Old Browsers */
+
+    background: -webkit-radial-gradient(center, #00d3ea, #003752);
+    /*Safari 5.1-6*/
+
+    background: -o-radial-gradient(center, #00d3ea, #003752);
+    /*Opera 11.1-12*/
+
+    background: -moz-radial-gradient(center, #00d3ea, #003752);
+    /*Fx 3.6-15*/
+
+    background: radial-gradient(ellipse at center, #00d3ea, #003752);
+    /*Standard*/
+
+    color: #fff !important;
+    margin-bottom: 0 !important;
+}
+
+
+.navbar-brand img {
+    max-width: 100px;
+    position: relative;
+    top: -40px;
+    left: 10px;
+}
+
+
+.border-bottom {
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    transition-timing-function: ease-in;
+    transition: .5s;
+    border-radius: 100%;
+    position: relative;
+    top: -5px;
+}
+
+.add-border-bottom {
+    border-top: 5px solid #fff !important;
+    border-bottom: 5px solid #fff !important;
+    transition-timing-function: ease-in;
+    transition: .5s;
+    border-radius: 100%;
+    position: relative;
+    top: -5px;
+}
+
+.padding-bottom {
+    margin-bottom: -10px;
+}
+
+.add-padding-bottom {
+    margin-bottom: -10px;
+}
+
+
+//Sticky Header
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.sticky + .content {
+//  padding-top: 100px;
+}
+
+.sticky-logo {
+    max-width: 40px !important;
+    top: -10px !important;
+    left: 15px !important;
+    transition: 0.3s ease-out;
+}

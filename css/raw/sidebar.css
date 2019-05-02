@@ -1,0 +1,97 @@
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 5%;
+  border-right: 1px solid #f3f3f3;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a i.fa-envelope-o {
+  position: relative;
+  top: -2px;
+}
+.sidenav a span.badge {
+  position: relative;
+  top: -8px;
+  left: -8px;
+}
+.sidenav div .img-wrapper {
+  width: 200px;
+  position: relative;
+  left: 32%;
+}
+.sidenav div .img-wrapper img {
+  position: relative;
+  top: 17px;
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+  display: block;
+  border-radius: 50%;
+  margin-bottom: 40px;
+  border: 1px solid #ccc;
+}
+.sidenav div div.underline {
+  height: 2px;
+  background: crimson;
+  width: 91%;
+  border-radius: 2px;
+  position: relative;
+  top: -5px;
+}
+.sidenav a:hover {
+  color: crimson;
+  transition: 0.1s;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+/*       ######       iPHONE 5       ######       */
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .sidenav div .img-wrapper {
+    left: 23%;
+  }
+}
+/*       ######       iPHONE 6       ######       */
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .sidenav div .img-wrapper {
+    left: 25%;
+  }
+}
+/*       ######       iPHONE 6 Plus       ######       */
+@media screen and (min-width: 376px) and (max-width: 767px) {
+  .sidenav div .img-wrapper {
+    left: 27%;
+  }
+}
+/*       ######       iPAD       ######       */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .sidenav div .img-wrapper {
+    left: 26%;
+  }
+}

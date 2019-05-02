@@ -1,0 +1,23 @@
+.footer {
+  padding: 10px 0 30px;
+  background: #292626;
+  /* Old Browsers */
+  background: -webkit-radial-gradient(center, #292626, #000000);
+  /*Safari 5.1-6*/
+  background: -o-radial-gradient(center, #292626, #000000);
+  /*Opera 11.1-12*/
+  background: -moz-radial-gradient(center, #292626, #000000);
+  /*Fx 3.6-15*/
+  background: radial-gradient(ellipse at center, #292626, #000000);
+  /*Standard*/
+  color: #fff !important;
+}
+.footer .back-to-top-wrapper a {
+  color: #7b7b7b;
+}
+.footer p {
+  color: #7b7b7b;
+  font-size: 14px;
+  margin: 0;
+  font-weight: 700;
+}

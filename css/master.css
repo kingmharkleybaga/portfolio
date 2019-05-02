@@ -1,0 +1,1136 @@
+/*
+========================================================
+
+[KING MHARKLEY F. BAGA WORK PORTFOLIO]
+
+======================================================== 
+*/
+/*@import (less) 'raw/dropzone';*/
+ul.navbar-nav {
+  font-size: 16px;
+}
+ul.navbar-nav li:unhover {
+  background: #00d3ea;
+  /* Old Browsers */
+  background: -webkit-radial-gradient(center, #00d3ea, #003752);
+  /*Safari 5.1-6*/
+  background: -o-radial-gradient(center, #00d3ea, #003752);
+  /*Opera 11.1-12*/
+  background: -moz-radial-gradient(center, #00d3ea, #003752);
+  /*Fx 3.6-15*/
+  background: radial-gradient(ellipse at center, #00d3ea, #003752);
+  /*Standard*/
+  color: #fff !important;
+}
+ul.navbar-nav li a:hover {
+  transition-timing-function: ease-in;
+  transition: .5s;
+  font-size: 16.4px;
+  letter-spacing: 3px;
+  color: #fff !important;
+}
+ul.navbar-nav li a:focus {
+  transition-timing-function: ease-in;
+  transition: .5s;
+  font-size: 16.4px;
+  letter-spacing: 3px;
+  color: #fff !important;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background: none;
+  color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar {
+  background: #00d3ea;
+  /* Old Browsers */
+  background: -webkit-radial-gradient(center, #00d3ea, #003752);
+  /*Safari 5.1-6*/
+  background: -o-radial-gradient(center, #00d3ea, #003752);
+  /*Opera 11.1-12*/
+  background: -moz-radial-gradient(center, #00d3ea, #003752);
+  /*Fx 3.6-15*/
+  background: radial-gradient(ellipse at center, #00d3ea, #003752);
+  /*Standard*/
+  color: #fff !important;
+  margin-bottom: 0 !important;
+}
+.navbar-brand img {
+  max-width: 100px;
+  position: relative;
+  top: -40px;
+  left: 10px;
+}
+.border-bottom {
+  border-top: 5px solid #fff;
+  border-bottom: 5px solid #fff;
+  transition-timing-function: ease-in;
+  transition: .5s;
+  border-radius: 100%;
+  position: relative;
+  top: -5px;
+}
+.add-border-bottom {
+  border-top: 5px solid #fff !important;
+  border-bottom: 5px solid #fff !important;
+  transition-timing-function: ease-in;
+  transition: .5s;
+  border-radius: 100%;
+  position: relative;
+  top: -5px;
+}
+.padding-bottom {
+  margin-bottom: -10px;
+}
+.add-padding-bottom {
+  margin-bottom: -10px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+.sticky-logo {
+  max-width: 40px !important;
+  top: -10px !important;
+  left: 15px !important;
+  transition: 0.3s ease-out;
+}
+.helvetica-bold {
+  font-family: 'Helvetica-Bold';
+}
+.helvetica-medium {
+  font-family: 'Helvetica-Regular';
+}
+.helvetica-neue-light {
+  font-family: 'Helvetica45LightRegular';
+}
+.helvetica-neue-regular {
+  font-family: 'Helvetica-Regular';
+}
+.helvetica-neue-roman {
+  font-family: 'HelveticaNeue-Roman';
+}
+.helvetica-neue-bold {
+  font-family: 'HelveticaNeue-Bold';
+}
+.helvetica-roman-heavy {
+  font-family: 'HelveticaNeue-Heavy';
+}
+@font-face {
+  font-family: 'Helvetica-Regular';
+  src: url('../fonts/Helvetica_gdi.eot');
+  src: url('../fonts/Helvetica_gdi.eot?#iefix') format('embedded-opentype'), url('../fonts/Helvetica_gdi.woff') format('woff'), url('../fonts/Helvetica_gdi.ttf') format('truetype'), url('../fonts/Helvetica_gdi.svg#Helvetica-Regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0008-25CA;
+}
+@font-face {
+  font-family: 'Helvetica-Bold';
+  src: url('../fonts/Helvetica-Bold_gdi.eot');
+  src: url('../fonts/Helvetica-Bold_gdi.eot?#iefix') format('embedded-opentype'), url('../fonts/Helvetica-Bold_gdi.woff') format('woff'), url('../fonts/Helvetica-Bold_gdi.ttf') format('truetype'), url('../fonts/Helvetica-Bold_gdi.otf') format('opentype'), url('../fonts/Helvetica-Bold_gdi.svg#Helvetica-Bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2212;
+}
+@font-face {
+  font-family: 'Helvetica45LightRegular';
+  src: url('../fonts/helveticaneue-light-webfont.eot');
+  src: url('../fonts/helveticaneue-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/helveticaneue-light-webfont.woff') format('woff'), url('../fonts/helveticaneue-light-webfont.ttf') format('truetype'), url('../fonts/helveticaneue-light-webfont.svg#Helvetica45LightRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HelveticaNeue-Regular';
+  src: url('../fonts/HelveticaNeue_gdi.eot');
+  src: url('../fonts/hHelveticaNeue_gdi.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeue_gdi.woff') format('woff'), url('../fonts/HelveticaNeue_gdi.ttf') format('truetype'), url('../fonts/HelveticaNeue_gdi.otf') format('opentype'), url('../fonts/HelveticaNeue_gdi.svg#HelveticaNeue-Regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0-10FFFF;
+}
+@font-face {
+  font-family: 'HelveticaNeue-Roman';
+  src: url('../fonts/HelveticaNeue-Roman_gdi.eot');
+  src: url('../fonts/HelveticaNeue-Roman_gdi.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeue-Roman_gdi.woff') format('woff'), url('../fonts/HelveticaNeue-Roman_gdi.ttf') format('truetype'), url('../fonts/HelveticaNeue-Roman_gdi.otf') format('opentype'), url('../fonts/HelveticaNeue-Roman_gdi.svg#HelveticaNeue-Roman') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2212;
+}
+@font-face {
+  font-family: 'HelveticaNeue-Medium';
+  src: url('../fonts/HelveticaNeue-Medium_gdi.eot');
+  src: url('../fonts/HelveticaNeue-Medium_gdi.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeue-Medium_gdi.woff') format('woff'), url('../fonts/HelveticaNeue-Medium_gdi.ttf') format('truetype'), url('../fonts/HelveticaNeue-Medium_gdi.otf') format('opentype'), url('../fonts/HelveticaNeue-Medium_gdi.svg#HelveticaNeue-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2212;
+}
+@font-face {
+  font-family: 'HelveticaNeue-Bold';
+  src: url('../fonts/HelveticaNeue-Bold_gdi.eot');
+  src: url('../fonts/HelveticaNeue-Bold_gdi.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeue-Bold_gdi.woff') format('woff'), url('../fonts/HelveticaNeue-Bold_gdi.ttf') format('truetype'), url('../fonts/HelveticaNeue-Bold_gdi.otf') format('opentype'), url('../fonts/HelveticaNeue-Bold_gdi.svg#HelveticaNeue-Bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0-10FFFF;
+}
+@font-face {
+  font-family: 'HelveticaNeue-Heavy';
+  src: url('../fonts/HelveticaNeue-Heavy_gdi.eot');
+  src: url('../fonts/HelveticaNeue-Heavy_gdi.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeue-Heavy_gdi.woff') format('woff'), url('../fonts/HelveticaNeue-Heavy_gdi.ttf') format('truetype'), url('../fonts/HelveticaNeue-Heavy_gdi.otf') format('opentype'), url('../fonts/HelveticaNeue-Heavy_gdi.svg#HelveticaNeue-Heavy') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2212;
+}
+body {
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+}
+.quick-contacts {
+  background: #000;
+  /* Old Browsers */
+  background: -webkit-radial-gradient(center, #191919, #000000);
+  /*Safari 5.1-6*/
+  background: -o-radial-gradient(center, #191919, #000000);
+  /*Opera 11.1-12*/
+  background: -moz-radial-gradient(center, #191919, #000000);
+  /*Fx 3.6-15*/
+  background: radial-gradient(ellipse at center, #191919, #000000);
+  /*Standard*/
+  color: #fff !important;
+  padding: 5px;
+}
+.quick-contacts ul.icon-wrapper {
+  list-style-type: none;
+  padding-top: 5px;
+  margin: 0 auto;
+}
+.quick-contacts ul.icon-wrapper li {
+  display: inline-block;
+  padding: 0 10px;
+}
+.quick-contacts ul.icon-wrapper li i {
+  color: #00d3ea;
+}
+.quick-contacts ul.icon-wrapper li a {
+  text-decoration: none;
+  color: #909090;
+}
+.quick-contacts ul.icon-wrapper li a:hover {
+  color: #00d3ea;
+  transition: .8s;
+  font-size: 14.5px;
+}
+.cover-photo-wrapper {
+  background: url('../img/workstation-1.jpg');
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cover-photo-wrapper .inner-content {
+  min-height: 700px;
+  padding-top: 200px;
+}
+.cover-photo-wrapper .inner-content h1 {
+  color: #00d3ea;
+  font-size: 60px;
+  font-weight: 600;
+}
+.cover-photo-wrapper .inner-content h3 {
+  font-size: 20px;
+}
+.cover-photo-wrapper .inner-content h3 span {
+  color: #00d3ea;
+}
+.cover-photo-wrapper .inner-content h4 {
+  color: #368db5;
+  font-size: 30px;
+  line-height: 35px;
+}
+.cover-photo-wrapper .inner-content p {
+  margin-top: 15px;
+}
+.cover-photo-wrapper .inner-content p .btn-circle {
+  text-decoration: none;
+}
+.cover-photo-wrapper .inner-content p .btn-circle i {
+  font-size: 50px;
+  color: #00d3ea;
+}
+.cover-photo-wrapper .inner-content p .btn-circle:hover {
+  font-size: 45px;
+  transition: 0.4s ease-out;
+}
+.back-to-top-wrapper {
+  padding: 15px;
+}
+/* SKILLS SET PROGRESS BAR */
+.skillbar {
+  position: relative;
+  display: block;
+  margin-bottom: 15px;
+  width: 100%;
+  background-color: #cecece;
+  height: 20px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -ms-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-transition-property: width, background-color;
+  -moz-transition-property: width, background-color;
+  -ms-transition-property: width, background-color;
+  -o-transition-property: width, background-color;
+  transition-property: width, background-color;
+}
+.skillbar-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 140px;
+  font-weight: bold;
+  font-size: 13px;
+  color: #ffffff;
+  background: #6adcfa;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.skillbar-title span {
+  display: block;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 0 8px;
+  height: 20px;
+  line-height: 20px;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.skillbar-bar {
+  height: 20px;
+  width: 0px;
+  background: #6adcfa;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+.skill-bar-percent {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  font-size: 11px;
+  height: 20px;
+  line-height: 20px;
+  color: #0e0e0e;
+  font-weight: 600;
+}
+#who-am-i .basic-info {
+  background: url('../img/cover-photo.jpg');
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px;
+}
+#who-am-i .basic-info h1 {
+  color: #f8f7f7;
+  font-weight: 700;
+}
+#who-am-i .basic-info p {
+  color: #a0a0a0;
+  line-height: 23px;
+}
+#who-am-i .skillset {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#who-am-i .skillset h1 {
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+#who-am-i .career {
+  background: #000;
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #e8e8e8;
+  padding: 40px 0 60px;
+}
+#who-am-i .career h1 {
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #e8e8e8;
+}
+#who-am-i .career ul.career-summary {
+  text-align: left;
+  list-style-type: square;
+}
+#who-am-i .career ul.career-summary li {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+#who-am-i .career ul.career-summary li a {
+  text-decoration: none;
+  color: #e8e8e8;
+}
+#who-am-i .career ul.career-summary li ol {
+  margin-bottom: 20px;
+}
+#who-am-i .career ul.career-summary li ol li {
+  margin-bottom: 0;
+}
+#who-am-i .work-experience {
+  background: #00d3ea;
+  /* Old Browsers */
+  background: -webkit-radial-gradient(center, #00d3ea, #003752);
+  /*Safari 5.1-6*/
+  background: -o-radial-gradient(center, #00d3ea, #003752);
+  /*Opera 11.1-12*/
+  background: -moz-radial-gradient(center, #00d3ea, #003752);
+  /*Fx 3.6-15*/
+  background: radial-gradient(ellipse at center, #00d3ea, #003752);
+  /*Standard*/
+  color: #e8e8e8;
+  padding: 40px 0 60px;
+}
+#who-am-i .work-experience h1 {
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #e8e8e8;
+}
+#who-am-i .work-experience .work-experience-list {
+  text-align: left;
+  list-style-type: square;
+}
+#who-am-i .work-experience .work-experience-list li {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+#who-am-i .work-experience .work-experience-list li a {
+  text-decoration: none;
+  color: #e8e8e8;
+}
+#who-am-i .work-experience .work-experience-list li ol {
+  margin-bottom: 20px;
+}
+#who-am-i .work-experience .work-experience-list li ol li {
+  margin-bottom: 0;
+}
+#who-am-i .academic-excellence {
+  padding-top: 40px;
+}
+#who-am-i .academic-excellence h1 {
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+#who-am-i .academic-excellence img {
+  padding-top: 15px;
+  max-width: 100%;
+  height: auto;
+}
+#who-am-i .academic-excellence ul {
+  list-style-type: square;
+}
+#who-am-i .academic-excellence ul li h4 {
+  color: #008492;
+}
+#who-am-i .interests {
+  background: url('../img/interests-cover.png');
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 0 80px;
+  height: 500px;
+}
+#who-am-i .interests h1 {
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #fff;
+}
+#who-am-i .interests ul {
+  list-style-type: none;
+}
+#who-am-i .interests ul li p {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 15px;
+  letter-spacing: .8px;
+}
+section#services {
+  padding: 60px 0;
+}
+section#services .at-your-service h1 {
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+}
+section#services .at-your-service h4 {
+  padding-bottom: 30px;
+}
+section#services .services-box {
+  border: 2px solid #f6f6f6;
+  border-radius: 3px;
+  padding-top: 40px;
+}
+section#services .services-box img {
+  margin-bottom: 10px;
+}
+section#services .services-box .services-wrapper {
+  background: #363636;
+  /* Old Browsers */
+  background: -webkit-radial-gradient(center, #363636, #151515);
+  /*Safari 5.1-6*/
+  background: -o-radial-gradient(center, #363636, #151515);
+  /*Opera 11.1-12*/
+  background: -moz-radial-gradient(center, #363636, #151515);
+  /*Fx 3.6-15*/
+  background: radial-gradient(ellipse at center, #363636, #151515);
+  /*Standard*/
+  padding: 10px;
+  color: #fff;
+}
+section#services .services-box p {
+  padding: 10px;
+}
+section#portfolio {
+  background: #d6d6d6;
+  /* Old Browsers */
+  background: -webkit-radial-gradient(center, #d6d6d6, #f4f4f4);
+  /*Safari 5.1-6*/
+  background: -o-radial-gradient(center, #d6d6d6, #f4f4f4);
+  /*Opera 11.1-12*/
+  background: -moz-radial-gradient(center, #d6d6d6, #f4f4f4);
+  /*Fx 3.6-15*/
+  background: radial-gradient(ellipse at center, #d6d6d6, #f4f4f4);
+  /*Standard*/
+  padding: 60px 0;
+}
+section#portfolio h1 {
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+}
+section#portfolio p {
+  margin-bottom: 60px;
+}
+section#portfolio .project-wrapper .item-wrapper {
+  background: url('../img/desktop.png');
+  height: 477px;
+  /* Create the parallax scrolling effect */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 30px;
+}
+section#portfolio .project-wrapper .item-wrapper ul {
+  padding: 28px 52px 0 55px;
+}
+section#portfolio .project-wrapper .item-wrapper ul li.item {
+  height: 266px;
+  overflow: auto;
+}
+section#contact {
+  background: #f7f7f7;
+  padding: 60px 0 100px;
+  color: #777777;
+}
+section#contact h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+section#contact .mobile {
+  position: relative;
+  top: 15px;
+  color: #00d3ea;
+}
+section#contact .contact-numbers {
+  margin-top: 30px;
+}
+section#contact .contact-numbers h4 a {
+  text-decoration: none;
+  color: #777777;
+}
+section#contact .contact-numbers h4 a:hover {
+  color: #00d3ea;
+  transition: 0.3s ease-out;
+}
+section#contact .envelope {
+  position: relative;
+  top: 15px;
+  color: #00d3ea;
+}
+section#contact #success-message {
+  display: none;
+}
+section#contact #error-message {
+  display: none;
+}
+section#contact .contact-form {
+  margin-top: 30px;
+}
+section#contact .contact-form .message-box {
+  min-height: 200px;
+}
+section#contact .contact-form .send-btn {
+  background: #00d3ea;
+  /* Old Browsers */
+  background: -webkit-radial-gradient(center, #00d3ea, #003752);
+  /*Safari 5.1-6*/
+  background: -o-radial-gradient(center, #00d3ea, #003752);
+  /*Opera 11.1-12*/
+  background: -moz-radial-gradient(center, #00d3ea, #003752);
+  /*Fx 3.6-15*/
+  background: radial-gradient(ellipse at center, #00d3ea, #003752);
+  /*Standard*/
+  color: #fff !important;
+}
+/* SAMSUNG S5 : PORTRAIT*/
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+  .add-padding-bottom {
+    border: none !important;
+  }
+  .cover-photo-wrapper {
+    background-position: -456px -40px;
+    height: 550px;
+  }
+  .cover-photo-wrapper .inner-content {
+    padding-top: 185px;
+  }
+  .cover-photo-wrapper .inner-content .greetings-wrapper h1 {
+    font-size: 30px;
+  }
+  .cover-photo-wrapper .inner-content .greetings-wrapper h4 {
+    line-height: 30px;
+    color: #368db5;
+  }
+  section#services .at-your-service h4 {
+    padding-bottom: 0;
+  }
+  section#portfolio .project-wrapper .item-wrapper {
+    height: 280px;
+  }
+  section#portfolio .project-wrapper .item-wrapper ul {
+    padding: 28px 52px 0 48px;
+  }
+  section#portfolio .project-wrapper .item-wrapper ul li.item {
+    height: 157px;
+    width: 263px;
+    position: relative;
+    left: -41px;
+    top: -12px;
+  }
+}
+/* SAMSUNG S5 : LANDSCAPE*/
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+  .add-padding-bottom {
+    border: none !important;
+  }
+  .cover-photo-wrapper .inner-content {
+    padding-top: 60px !important;
+  }
+  .cover-photo-wrapper .inner-content .greetings-wrapper h1 {
+    font-size: 30px;
+  }
+  .cover-photo-wrapper .inner-content .greetings-wrapper h3 {
+    margin-top: 0;
+  }
+  .cover-photo-wrapper .inner-content .greetings-wrapper h4 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .cover-photo-wrapper .inner-content .greetings-wrapper p .btn-circle i {
+    font-size: 30px;
+    padding: 0px 5px;
+    position: relative;
+    top: -10px;
+  }
+  section#who-am-i .basic-info {
+    background-position: center -18px !important;
+  }
+  section#who-am-i .academic-excellence ul {
+    margin-left: 22px !important;
+    margin-top: 30px !important;
+  }
+  section#who-am-i .interests {
+    background-position: center center !important;
+  }
+  section#portfolio .project-wrapper .item-wrapper {
+    height: 280px;
+  }
+  section#portfolio .project-wrapper .item-wrapper ul {
+    padding: 28px 52px 0 168px;
+  }
+  section#portfolio .project-wrapper .item-wrapper ul li.item {
+    height: 157px;
+    width: 263px;
+    position: relative;
+    left: -41px;
+    top: -12px;
+  }
+}
+/* IPHONE 5 */
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .add-padding-bottom {
+    border: none !important;
+  }
+  .cover-photo-wrapper {
+    background-position: -350px 30px;
+  }
+  .cover-photo-wrapper .inner-content {
+    padding-top: 195px;
+  }
+  .cover-photo-wrapper .inner-content .greetings-wrapper h1 {
+    font-size: 28px;
+  }
+  .cover-photo-wrapper .inner-content .greetings-wrapper h4 {
+    font-size: 22px;
+    line-height: 27px;
+  }
+  section#who-am-i .interests {
+    height: 628px;
+  }
+  section#portfolio .project-wrapper .item-wrapper {
+    height: 280px;
+  }
+  section#portfolio .project-wrapper .item-wrapper ul li.item {
+    height: 157px;
+    width: 263px;
+    position: relative;
+    left: -41px;
+    top: -12px;
+  }
+}
+/*       ######       iPHONE 6       ######       */
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .add-padding-bottom {
+    border: none !important;
+  }
+  .cover-photo-wrapper {
+    background-position: -440px 35px;
+  }
+  .cover-photo-wrapper .inner-content {
+    padding-top: 240px;
+  }
+  .cover-photo-wrapper .inner-content h1 {
+    font-size: 42px;
+  }
+  .cover-photo-wrapper .inner-content h4 {
+    font-size: 26px;
+  }
+  section#who-am-i .basic-info {
+    background-position: -450px -58px;
+    padding: 15px;
+  }
+  section#who-am-i .basic-info h1 {
+    color: #f8f7f7;
+  }
+  section#who-am-i .skillset h1 {
+    font-size: 30px;
+  }
+  section#who-am-i .career h1 {
+    font-size: 30px;
+  }
+  section#who-am-i .work-experience h1 {
+    font-size: 30px;
+  }
+  section#who-am-i .academic-excellence h1 {
+    font-size: 33px;
+    margin-bottom: 10px;
+  }
+  section#who-am-i .interests {
+    background-position: -278px -100px;
+  }
+  section#services .at-your-service h1 {
+    font-size: 30px;
+  }
+  section#services .at-your-service h4 {
+    padding-bottom: 0;
+  }
+  section#services .services-box {
+    margin-bottom: 20px;
+  }
+  section#portfolio h1 {
+    font-size: 30px;
+  }
+  section#portfolio .project-wrapper .item-wrapper {
+    height: 280px;
+  }
+  section#portfolio .project-wrapper .item-wrapper ul li.item {
+    height: 157px;
+    width: 263px;
+    position: relative;
+    left: -14px;
+    top: -12px;
+  }
+  section#contact h1 {
+    font-size: 30px;
+  }
+}
+/*       ######       iPHONE 6 : LANDSCAPE      ######       */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+  .add-padding-bottom {
+    border: none !important;
+  }
+  .cover-photo-wrapper .inner-content .greetings-wrapper h1 {
+    font-size: 30px;
+  }
+  .cover-photo-wrapper .inner-content .greetings-wrapper h4 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  section#who-am-i .basic-info {
+    background-position: center center !important;
+  }
+  section#who-am-i .basic-info h1 {
+    font-size: 30px;
+  }
+  section#who-am-i .interests {
+    background-position: center center !important;
+  }
+  section#portfolio .project-wrapper .item-wrapper {
+    height: 400px;
+  }
+  section#portfolio .project-wrapper .item-wrapper ul {
+    padding: 18px 52px 0 183px !important;
+  }
+  section#portfolio .project-wrapper .item-wrapper ul li.item {
+    height: 229px;
+    overflow: auto;
+    margin-top: 10px;
+  }
+}
+/*       ######       iPHONE 6 Plus       ######       */
+@media screen and (min-width: 376px) and (max-width: 767px) {
+  .add-padding-bottom {
+    border: none !important;
+  }
+  .cover-photo-wrapper {
+    background-position: -470px 38px;
+  }
+  .cover-photo-wrapper .inner-content {
+    padding-top: 300px;
+  }
+  .cover-photo-wrapper .inner-content .greetings-wrapper h1 {
+    font-size: 35px;
+  }
+  .cover-photo-wrapper .inner-content .greetings-wrapper h4 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  section#who-am-i .basic-info {
+    background-position: -450px -58px;
+    padding: 15px;
+  }
+  section#who-am-i .basic-info h1 {
+    color: #f8f7f7;
+  }
+  section#who-am-i .skillset h1 {
+    font-size: 30px;
+  }
+  section#who-am-i .career h1 {
+    font-size: 30px;
+  }
+  section#who-am-i .work-experience h1 {
+    font-size: 30px;
+  }
+  section#who-am-i .academic-excellence h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  section#who-am-i .interests {
+    background-position: -278px -100px;
+  }
+  section#services .at-your-service h1 {
+    font-size: 30px;
+  }
+  section#services .services-box {
+    margin-bottom: 20px;
+  }
+  section#portfolio h1 {
+    font-size: 30px;
+  }
+  section#portfolio .project-wrapper .item-wrapper {
+    height: 355px;
+  }
+  section#portfolio .project-wrapper .item-wrapper ul li.item {
+    height: 200px;
+    width: 336px;
+    position: relative;
+    left: -30px;
+    top: -8px;
+  }
+  section#contact h1 {
+    font-size: 30px;
+  }
+}
+/*       ######       iPHONE 6 Plus : LANDSCAPE      ######       */
+@media only screen and (min-device-width: 376px) and (max-device-height: 767px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+  .add-padding-bottom {
+    border: none !important;
+  }
+  section#portfolio .project-wrapper .item-wrapper {
+    height: 357px;
+  }
+  section#portfolio .project-wrapper .item-wrapper ul {
+    padding: 19px 0 0 215px !important;
+  }
+  section#portfolio .project-wrapper .item-wrapper ul li.item {
+    height: 200px;
+    overflow: auto;
+    margin-top: 10px;
+  }
+}
+/*       ######       iPAD       ######       */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .cover-photo-wrapper {
+    background-position: -590px -110px;
+  }
+  .cover-photo-wrapper .inner-content {
+    padding-top: 250px;
+  }
+  section#portfolio .project-wrapper .item-wrapper {
+    height: 652px;
+  }
+  section#portfolio .project-wrapper .item-wrapper ul li.item {
+    height: 364px;
+    overflow: auto;
+    margin-top: 10px;
+  }
+}
+/*       ######       iPAD : Landscape       ######       */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .cover-photo-wrapper {
+    background-position: center 20px;
+  }
+  .cover-photo-wrapper .inner-content {
+    padding-top: 250px;
+  }
+  section#portfolio .project-wrapper .item-wrapper {
+    height: 400px;
+  }
+  section#portfolio .project-wrapper .item-wrapper ul {
+    padding: 13px 38px 0 39px;
+  }
+  section#portfolio .project-wrapper .item-wrapper ul li.item {
+    height: 229px;
+    overflow: auto;
+    margin-top: 10px;
+  }
+}
+/*       ######       IPAD PRO      ######       */
+@media only screen and (min-width: 1024px) {
+  section#portfolio .project-wrapper .item-wrapper {
+    height: 373px;
+  }
+  section#portfolio .project-wrapper .item-wrapper ul {
+    padding: 11px 51px 0 53px;
+  }
+  section#portfolio .project-wrapper .item-wrapper ul li.item {
+    height: 210px;
+    overflow: auto;
+    margin-top: 10px;
+  }
+}
+/*       ######       Laptop / Small Desktop       ######       */
+@media only screen and (min-width: 1224px) {
+  section#portfolio .project-wrapper .item-wrapper {
+    height: 373px;
+  }
+  section#portfolio .project-wrapper .item-wrapper ul {
+    padding: 12px 102px 0 103px;
+  }
+  section#portfolio .project-wrapper .item-wrapper ul li.item {
+    height: 208px;
+    overflow: auto;
+    margin-top: 10px;
+  }
+}
+/*       ######       Large Screens       ######       */
+@media only screen and (min-width: 1824px) {
+  section#portfolio .project-wrapper .item-wrapper {
+    height: 450px;
+  }
+  section#portfolio .project-wrapper .item-wrapper ul {
+    padding: 15px 65px 0 67px;
+  }
+  section#portfolio .project-wrapper .item-wrapper ul li.item {
+    height: 254px;
+    overflow: auto;
+    margin-top: 10px;
+  }
+}
+.footer {
+  padding: 10px 0 30px;
+  background: #292626;
+  /* Old Browsers */
+  background: -webkit-radial-gradient(center, #292626, #000000);
+  /*Safari 5.1-6*/
+  background: -o-radial-gradient(center, #292626, #000000);
+  /*Opera 11.1-12*/
+  background: -moz-radial-gradient(center, #292626, #000000);
+  /*Fx 3.6-15*/
+  background: radial-gradient(ellipse at center, #292626, #000000);
+  /*Standard*/
+  color: #fff !important;
+}
+.footer .back-to-top-wrapper a {
+  color: #7b7b7b;
+}
+.footer p {
+  color: #7b7b7b;
+  font-size: 14px;
+  margin: 0;
+  font-weight: 700;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 5%;
+  border-right: 1px solid #f3f3f3;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a i.fa-envelope-o {
+  position: relative;
+  top: -2px;
+}
+.sidenav a span.badge {
+  position: relative;
+  top: -8px;
+  left: -8px;
+}
+.sidenav div .img-wrapper {
+  width: 200px;
+  position: relative;
+  left: 32%;
+}
+.sidenav div .img-wrapper img {
+  position: relative;
+  top: 17px;
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+  display: block;
+  border-radius: 50%;
+  margin-bottom: 40px;
+  border: 1px solid #ccc;
+}
+.sidenav div div.underline {
+  height: 2px;
+  background: crimson;
+  width: 91%;
+  border-radius: 2px;
+  position: relative;
+  top: -5px;
+}
+.sidenav a:hover {
+  color: crimson;
+  transition: 0.1s;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+/*       ######       iPHONE 5       ######       */
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .sidenav div .img-wrapper {
+    left: 23%;
+  }
+}
+/*       ######       iPHONE 6       ######       */
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .sidenav div .img-wrapper {
+    left: 25%;
+  }
+}
+/*       ######       iPHONE 6 Plus       ######       */
+@media screen and (min-width: 376px) and (max-width: 767px) {
+  .sidenav div .img-wrapper {
+    left: 27%;
+  }
+}
+/*       ######       iPAD       ######       */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .sidenav div .img-wrapper {
+    left: 26%;
+  }
+}
+/*
+========================================================
+
+[Default]  
+
+========================================================
+*/
