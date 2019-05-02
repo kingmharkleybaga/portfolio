@@ -38,7 +38,7 @@ body {
   font-size: 14.5px;
 }
 .cover-photo-wrapper {
-  background: url('../img/workstation-1.jpg');
+  background: url('../img/top-cover-photo.jpg');
   /* Full height */
   height: 100%;
   /* Create the parallax scrolling effect */
@@ -52,18 +52,19 @@ body {
   padding-top: 200px;
 }
 .cover-photo-wrapper .inner-content h1 {
-  color: #00d3ea;
+  color: #f8f8f8;
   font-size: 60px;
   font-weight: 600;
 }
 .cover-photo-wrapper .inner-content h3 {
-  font-size: 20px;
+  font-size: 2em;
+  color: #f8f8f8;
 }
 .cover-photo-wrapper .inner-content h3 span {
-  color: #00d3ea;
+  color: #f8f8f8;
 }
 .cover-photo-wrapper .inner-content h4 {
-  color: #368db5;
+  color: #00d3ea;
   font-size: 30px;
   line-height: 35px;
 }
@@ -75,7 +76,8 @@ body {
 }
 .cover-photo-wrapper .inner-content p .btn-circle i {
   font-size: 50px;
-  color: #00d3ea;
+  color: #ffffff;
+  font-weight: bold;
 }
 .cover-photo-wrapper .inner-content p .btn-circle:hover {
   font-size: 45px;
