@@ -5,7 +5,7 @@
             <a href="#top" class="pull-right page-scroll"><i class="fa fa-arrow-up fa-2x"></i></a>
         </div> 
         
-        <p>&copy; King Mharkley F. Baga. <?php echo date('Y'); ?> All Rights Reserved.</p>
+        <p>&copy; King Mharkley F. Baga. 2019 All Rights Reserved.</p>
         
     </footer>
 
