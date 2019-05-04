@@ -254,16 +254,15 @@ body {
   font-weight: 600;
 }
 .cover-photo-wrapper .inner-content h3 {
-  font-size: 2em;
-  color: #f8f8f8;
-}
-.cover-photo-wrapper .inner-content h3 span {
+  font-size: 2.6em;
+  font-family: "Lato", sans-serif;
   color: #f8f8f8;
 }
 .cover-photo-wrapper .inner-content h4 {
   color: #00d3ea;
-  font-size: 30px;
+  font-size: 2em;
   line-height: 35px;
+  margin-top: 20px;
 }
 .cover-photo-wrapper .inner-content p {
   margin-top: 15px;
@@ -273,7 +272,7 @@ body {
 }
 .cover-photo-wrapper .inner-content p .btn-circle i {
   font-size: 50px;
-  color: #ffffff;
+  color: #cfea00;
   font-weight: bold;
 }
 .cover-photo-wrapper .inner-content p .btn-circle:hover {
@@ -353,7 +352,7 @@ body {
   font-weight: 600;
 }
 #who-am-i .basic-info {
-  background: url('../img/cover-photo.jpg');
+  background: url('../img/personal.jpg');
   /* Full height */
   height: 100%;
   /* Create the parallax scrolling effect */
